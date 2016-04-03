@@ -4,22 +4,22 @@
   "version": "0.0.0",
   "author": "umatoma <umatomakun@gmail.com>",
   "license": "MIT",
-
-  "keywords": ["hubot","hubot-scripts"],
-
+  "keywords": [
+    "hubot",
+    "hubot-scripts"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/hubot-scripts/hubot-popute.git"
   },
-
   "bugs": {
     "url": "https://github.com/hubot-scripts/hubot-popute/issues"
   },
-
   "dependencies": {
+    "async": "^2.0.0-rc.2",
+    "cheerio": "^0.20.0",
     "coffee-script": "~1.6"
   },
-
   "devDependencies": {
     "mocha": "*",
     "chai": "*",
@@ -30,9 +30,7 @@
     "matchdep": "~0.1.2",
     "grunt-contrib-watch": "~0.5.3"
   },
-
   "main": "index.coffee",
-
   "scripts": {
     "test": "grunt test"
   }

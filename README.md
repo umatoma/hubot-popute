@@ -8,7 +8,7 @@ See [`src/popute.coffee`](src/popute.coffee) for full documentation.
 
 In hubot project repo, run:
 
-`npm install hubot-popute --save`
+`npm install git://github.com/umatoma/hubot-popute.git --save`
 
 Then add **hubot-popute** to your `external-scripts.json`:
 
@@ -19,6 +19,6 @@ Then add **hubot-popute** to your `external-scripts.json`:
 ## Sample Interaction
 
 ```
-user1>> hubot hello
-hubot>> hello!
+user> hubot popute me
+hubot> http://mangalifewin.takeshobo.co.jp/global-image/manga/okawabukubu/popute2/popute2-001/15695.jpg
 ```
